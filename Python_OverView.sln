@@ -13,6 +13,8 @@ Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "LoadingData", "LoadingData\
 EndProject
 Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "Vectors_Matrices_Arrays", "Vectors_Matrices_Arrays\Vectors_Matrices_Arrays.pyproj", "{5503D4C2-1167-471E-AAE4-8A02F44636C3}"
 EndProject
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "Handling_Text", "Handling_Text\Handling_Text.pyproj", "{1C677BA0-A0F6-49FA-9B98-6DD56133DBAF}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -29,6 +31,8 @@ Global
 		{ED8E704B-F74B-44F8-97C1-3C04A0C89A43}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5503D4C2-1167-471E-AAE4-8A02F44636C3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{5503D4C2-1167-471E-AAE4-8A02F44636C3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1C677BA0-A0F6-49FA-9B98-6DD56133DBAF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1C677BA0-A0F6-49FA-9B98-6DD56133DBAF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
