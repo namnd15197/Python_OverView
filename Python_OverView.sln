@@ -17,6 +17,12 @@ Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "Handling_Text", "Handling_T
 EndProject
 Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "Model_Evaluation", "Model_Evaluation\Model_Evaluation.pyproj", "{E71227B5-2707-4AAC-947C-DB57609C52E1}"
 EndProject
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "Chapter12_Model_Selection", "Chapter12_Model_Selection\Chapter12_Model_Selection.pyproj", "{666FF996-8E0E-46FB-841A-CAB7C8DD70C9}"
+EndProject
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "Chapter13_Linear_Regression", "Chapter13_Linear_Regression\Chapter13_Linear_Regression.pyproj", "{D4CD4FC6-1742-4BFD-8E24-983DD66075ED}"
+EndProject
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "Chapter14_Trees_and_Forests", "Chapter14_Trees_and_Forests\Chapter14_Trees_and_Forests.pyproj", "{7C52A36B-253D-4973-B760-D2196F375355}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -37,6 +43,12 @@ Global
 		{1C677BA0-A0F6-49FA-9B98-6DD56133DBAF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E71227B5-2707-4AAC-947C-DB57609C52E1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{E71227B5-2707-4AAC-947C-DB57609C52E1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{666FF996-8E0E-46FB-841A-CAB7C8DD70C9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{666FF996-8E0E-46FB-841A-CAB7C8DD70C9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D4CD4FC6-1742-4BFD-8E24-983DD66075ED}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D4CD4FC6-1742-4BFD-8E24-983DD66075ED}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7C52A36B-253D-4973-B760-D2196F375355}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7C52A36B-253D-4973-B760-D2196F375355}.Release|Any CPU.ActiveCfg = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

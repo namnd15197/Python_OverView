@@ -2,15 +2,15 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <SchemaVersion>2.0</SchemaVersion>
-    <ProjectGuid>e71227b5-2707-4aac-947c-db57609c52e1</ProjectGuid>
+    <ProjectGuid>d4cd4fc6-1742-4bfd-8e24-983dd66075ed</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>11.13_Visualizing_the_Effect_of_Hyperparameter_Values.py</StartupFile>
+    <StartupFile>13.5_Reducing_Features_with_Lasso_Regression.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
     <OutputPath>.</OutputPath>
-    <Name>Model_Evaluation</Name>
-    <RootNamespace>Model_Evaluation</RootNamespace>
+    <Name>Chapter13_Linear_Regression</Name>
+    <RootNamespace>Chapter13_Linear_Regression</RootNamespace>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
     <DebugSymbols>true</DebugSymbols>
@@ -21,43 +21,22 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="11.10_Creating_A_Custom_Evaluation_Metric.py">
+    <Compile Include="13.1_Fitting_a_Line.py">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="11.11_Visualizing_the_Effect_of_Training_Set_Size.py">
+    <Compile Include="13.2_Handling_Interactive_Efects.py">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="11.12_Creating_a_Text_Report_of_Evaluation_Metrics.py">
+    <Compile Include="13.3_Fitting_a_Nonlinear_Relationship.py">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="11.13_Visualizing_the_Effect_of_Hyperparameter_Values.py">
+    <Compile Include="13.4_Reducing_Variance_with_Regularization.py">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="11.2_Creating_A_Baseline_Regression_Model.py">
+    <Compile Include="13.5_Reducing_Features_with_Lasso_Regression.py">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="11.3_Creating_A_Baseline_Classification_Model.py">
-      <SubType>Code</SubType>
-    </Compile>
-    <Compile Include="11.4_Evaluating_Binary_Classifier_Predictions.py">
-      <SubType>Code</SubType>
-    </Compile>
-    <Compile Include="11.5_Evaluating_Binary_Classifier_Thresholds.py">
-      <SubType>Code</SubType>
-    </Compile>
-    <Compile Include="11.6_Evaluating_Multiclass_Classifier_Predictions.py">
-      <SubType>Code</SubType>
-    </Compile>
-    <Compile Include="11.7_Visualizing_A_Classifier’s_Performance.py">
-      <SubType>Code</SubType>
-    </Compile>
-    <Compile Include="11.8_Evaluating_Regression_Models.py">
-      <SubType>Code</SubType>
-    </Compile>
-    <Compile Include="11.9_Evaluating_Clustering_Models.py">
-      <SubType>Code</SubType>
-    </Compile>
-    <Compile Include="Model_Evaluation.py" />
+    <Compile Include="Chapter13_Linear_Regression.py" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
   <!-- Uncomment the CoreCompile target to enable the Build command in
