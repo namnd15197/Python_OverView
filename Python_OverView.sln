@@ -23,6 +23,18 @@ Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "Chapter13_Linear_Regression
 EndProject
 Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "Chapter14_Trees_and_Forests", "Chapter14_Trees_and_Forests\Chapter14_Trees_and_Forests.pyproj", "{7C52A36B-253D-4973-B760-D2196F375355}"
 EndProject
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "Chapter15_K-Nearest_Neighbors", "Chapter15_K-Nearest_Neighbors\Chapter15_K-Nearest_Neighbors.pyproj", "{F37F13C9-1E3D-47A9-9957-313267C08E7F}"
+EndProject
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "Chapter16_Logistic_Regression", "Chapter16_Logistic_Regression\Chapter16_Logistic_Regression.pyproj", "{AB8E7CF3-1874-4DE5-B411-20CF2E6A0A48}"
+EndProject
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "Chapter17_Support_Vector_Machines", "Chapter17_Support_Vector_Machines\Chapter17_Support_Vector_Machines.pyproj", "{8267436F-DA6D-4A88-BD22-6A10DEB76DA9}"
+EndProject
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "Chapter18_Naive_Bayes", "Chapter18_Naive_Bayes\Chapter18_Naive_Bayes.pyproj", "{61332373-E8EF-44B2-90D7-5448F8EA9BA4}"
+EndProject
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "Chapter19_Clustering", "Chapter19_Clustering\Chapter19_Clustering.pyproj", "{2877C18C-B181-42ED-A9B6-D2240AFF49EE}"
+EndProject
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "Chapter20_Neuroal_Networks", "Chapter20_Neuroal_Networks\Chapter20_Neuroal_Networks.pyproj", "{97A3D3E6-AB45-40F1-8489-DAB34C378B60}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -49,6 +61,18 @@ Global
 		{D4CD4FC6-1742-4BFD-8E24-983DD66075ED}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7C52A36B-253D-4973-B760-D2196F375355}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{7C52A36B-253D-4973-B760-D2196F375355}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F37F13C9-1E3D-47A9-9957-313267C08E7F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F37F13C9-1E3D-47A9-9957-313267C08E7F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AB8E7CF3-1874-4DE5-B411-20CF2E6A0A48}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AB8E7CF3-1874-4DE5-B411-20CF2E6A0A48}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8267436F-DA6D-4A88-BD22-6A10DEB76DA9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8267436F-DA6D-4A88-BD22-6A10DEB76DA9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{61332373-E8EF-44B2-90D7-5448F8EA9BA4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{61332373-E8EF-44B2-90D7-5448F8EA9BA4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2877C18C-B181-42ED-A9B6-D2240AFF49EE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2877C18C-B181-42ED-A9B6-D2240AFF49EE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{97A3D3E6-AB45-40F1-8489-DAB34C378B60}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{97A3D3E6-AB45-40F1-8489-DAB34C378B60}.Release|Any CPU.ActiveCfg = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

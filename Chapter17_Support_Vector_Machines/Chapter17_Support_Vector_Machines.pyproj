@@ -2,15 +2,15 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <SchemaVersion>2.0</SchemaVersion>
-    <ProjectGuid>7c52a36b-253d-4973-b760-d2196f375355</ProjectGuid>
+    <ProjectGuid>8267436f-da6d-4a88-bd22-6a10deb76da9</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>14.11_Evaluating_Random_Forest_with_Out_of_Bag_Errors.py</StartupFile>
+    <StartupFile>17.4_Identifying_Support_Vector.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
     <OutputPath>.</OutputPath>
-    <Name>Chapter14_Trees_and_Forests</Name>
-    <RootNamespace>Chapter14_Trees_and_Forests</RootNamespace>
+    <Name>Chapter17_Support_Vector_Machines</Name>
+    <RootNamespace>Chapter17_Support_Vector_Machines</RootNamespace>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
     <DebugSymbols>true</DebugSymbols>
@@ -21,37 +21,19 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="14.10_Improving_Performance_Through_Boosting.py">
+    <Compile Include="17.2_Handling_Linearly_Inseparable_Classes_Using_Kernels.py">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="14.11_Evaluating_Random_Forest_with_Out_of_Bag_Errors.py">
+    <Compile Include="17.3_Creating_Predict_Probabilities.py">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="14.2_Training_a_Decision_Tree_Regression.py">
+    <Compile Include="17.4_Identifying_Support_Vector.py">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="14.3_Visualizing_a_Decision_Tree_Model.py">
+    <Compile Include="17.5_Handling_Imbalanced_Classes.py">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="14.4_Training_a_Random_Forest_Classifier.py">
-      <SubType>Code</SubType>
-    </Compile>
-    <Compile Include="14.5_Training_a_Random_Forest_Regressor.py">
-      <SubType>Code</SubType>
-    </Compile>
-    <Compile Include="14.6_Identifying_Important_Features_in_Random_Forest.py">
-      <SubType>Code</SubType>
-    </Compile>
-    <Compile Include="14.7_Selecting_Important_Features_in_Random_Forest.py">
-      <SubType>Code</SubType>
-    </Compile>
-    <Compile Include="14.8_Handling_Imbalanced_Classes.py">
-      <SubType>Code</SubType>
-    </Compile>
-    <Compile Include="14.9_Controlling_Tree_Size.py">
-      <SubType>Code</SubType>
-    </Compile>
-    <Compile Include="Chapter14_Trees_and_Forests.py" />
+    <Compile Include="Chapter17_Support_Vector_Machines.py" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
   <!-- Uncomment the CoreCompile target to enable the Build command in

@@ -2,15 +2,15 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <SchemaVersion>2.0</SchemaVersion>
-    <ProjectGuid>7c52a36b-253d-4973-b760-d2196f375355</ProjectGuid>
+    <ProjectGuid>f37f13c9-1e3d-47a9-9957-313267c08e7f</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>14.11_Evaluating_Random_Forest_with_Out_of_Bag_Errors.py</StartupFile>
+    <StartupFile>15.4_Creating_a_Radius-Based_Nearest_Neighbor_Classifier.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
     <OutputPath>.</OutputPath>
-    <Name>Chapter14_Trees_and_Forests</Name>
-    <RootNamespace>Chapter14_Trees_and_Forests</RootNamespace>
+    <Name>Chapter15_K-Nearest_Neighbors</Name>
+    <RootNamespace>Chapter15_K-Nearest_Neighbors</RootNamespace>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
     <DebugSymbols>true</DebugSymbols>
@@ -21,37 +21,16 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="14.10_Improving_Performance_Through_Boosting.py">
+    <Compile Include="15.2_Creating_a_K-Nearest_Neighbor_Classifier.py">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="14.11_Evaluating_Random_Forest_with_Out_of_Bag_Errors.py">
+    <Compile Include="15.3_Identifying_The_Best_Neighborhood_Size.py">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="14.2_Training_a_Decision_Tree_Regression.py">
+    <Compile Include="15.4_Creating_a_Radius-Based_Nearest_Neighbor_Classifier.py">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="14.3_Visualizing_a_Decision_Tree_Model.py">
-      <SubType>Code</SubType>
-    </Compile>
-    <Compile Include="14.4_Training_a_Random_Forest_Classifier.py">
-      <SubType>Code</SubType>
-    </Compile>
-    <Compile Include="14.5_Training_a_Random_Forest_Regressor.py">
-      <SubType>Code</SubType>
-    </Compile>
-    <Compile Include="14.6_Identifying_Important_Features_in_Random_Forest.py">
-      <SubType>Code</SubType>
-    </Compile>
-    <Compile Include="14.7_Selecting_Important_Features_in_Random_Forest.py">
-      <SubType>Code</SubType>
-    </Compile>
-    <Compile Include="14.8_Handling_Imbalanced_Classes.py">
-      <SubType>Code</SubType>
-    </Compile>
-    <Compile Include="14.9_Controlling_Tree_Size.py">
-      <SubType>Code</SubType>
-    </Compile>
-    <Compile Include="Chapter14_Trees_and_Forests.py" />
+    <Compile Include="Chapter15_K_Nearest_Neighbors.py" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
   <!-- Uncomment the CoreCompile target to enable the Build command in
